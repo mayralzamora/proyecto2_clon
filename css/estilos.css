@@ -1,0 +1,323 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+
+}
+h3{
+    font-size: 2.6em;
+}
+h4{
+    font-size: 1.5em;
+}
+h5{
+    font-size: 1em;
+}
+
+/* NAVEVACION */
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    background-color: #1b1bdd;
+    text-align: center;
+}
+.logo{
+    max-width: 300px;
+    padding-bottom: 10px;
+}
+  
+li{
+    display: inline-block;
+    padding: 10px 6px;
+    margin-left: 10px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-size: medium;
+
+}
+a:hover{
+    font-weight: bold;
+    color: #f87117;
+}
+.nav-bg{
+    background-color: #0202bd;
+}
+/*BANER IMAGEN*/
+.baner{
+    width: 100%;
+    background-image:url(../img/imagen4.jpg);
+    background-repeat: round;
+    text-align: center;
+    padding: 150px;
+    color: white;
+    font-style: bold;
+    font-size:x-large;
+}
+.baner h3{
+    color: white;
+    font-weight: 1.2em;
+}
+.baner-instituto{
+    width: auto;
+    background-image:url(../img/imagen3.jpg);
+    background-repeat:round;
+    text-align: center;
+    padding: 150px;
+    color: white;
+    font-style: bold;
+    font-size:x-large;
+}
+.info{
+    background-color: #f87117;
+    color: white;
+    padding: 100px;
+}
+.info h3, h4{
+color: #03269b;
+}
+/*parte 1*/
+.info{
+    max-height: 600px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+    padding-right: 0;
+    
+}
+.vaca{
+    position: relative;
+    float: left;
+    height: 100px;
+    left: 0;
+}
+.col1{
+    position: absolute;
+    padding-top: 120px;
+    text-align: left;
+    align-items: center;
+    width: 300px;
+    background-color: #f87117;
+    
+}
+p{
+    line-height: 25px;
+}
+.col2{
+    margin-left: 220px;
+    padding-bottom: 0;
+    text-align: right;
+    padding-right: 0;
+    margin-right: 0;
+    background-color: #f87117;
+}
+.imagen{
+    max-height: 600px;
+}
+.button{
+    background-color: #0202bd;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border-radius: 2em;
+    font-size: small;
+}
+
+/*SLIDER*/
+* {
+    box-sizing:border-box;
+}
+
+.slider{
+    height: 600px;
+    text-align: center;
+    
+    padding-bottom: 30px;
+    
+}
+.slider h3{
+    font-style: bold;
+    font-size: 2em;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* INDICADORES SLIDER */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*NEWSLETTER*/
+.newsletter{
+    height: 500px;
+    color: #717171;
+    background-color: #faf9f9;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.newsletter h3{
+    color: #f87117;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.newsletter h4{
+    color: #717171;
+    margin-bottom: 20px;
+}
+.button-news{
+    background-color: #0202bd;
+    color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border-radius: 2em;
+    font-size: small;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #717171;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.navegacion-footer{
+    padding: 0;
+}
+.ul-foot{
+    background-color: #717171;
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.li-foot{
+    font-size: small;
+}
+.a-foot:hover{
+    font-weight: bold;
+    color: white;
+}
+.footer_texto{
+    background-color: #717171;
+    text-align: center;
+    color: #faf9f9;
+}
+
+/*INSTITUTO*/
+.cursos{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 200px;
+    height: 650px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-right: 0;
+    width: 1800px;
+    display: inline-block;
+}
+.cursos h4{
+    color: #f87117;
+}
+.cursos h3,h5{
+    color: #1b1bdd;
+}
+.col1-cursos{
+    position: absolute;
+    text-align: left;
+    align-items: center;
+    width: 400px;
+}
+.col2-cursos{
+    margin-left: 500px;
+    width: 400px;
+    padding-bottom: 0;
+    text-align: left;
+    padding-right: 0;
+    margin-right: 0;
+}
+.baner-instituto h4,h5{
+    color: white;
+}
+
+/*UBICACIONES*/
+.baner h3{
+    font-size: x-large;
+}
+.mapa{
+    background-color: #f87117;
+    padding-top: 100px;
+    padding-left: 50px;
+    height: 650px;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-right: 0;
+    width: 1800px;
+    display: inline-block;
+}
+.col1-mapa{
+    position: absolute;
+    text-align: left;
+    align-items: center;
+    width: 400px;
+}
+.col1-mapa h4,p{
+    color: white;
+}
+.col2-mapa{
+    margin-left: 500px;
+    padding-bottom: 0;
+    text-align: left;
+    padding-right: 0;
+    margin-right: 0;
+}
